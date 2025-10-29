@@ -1,30 +1,3 @@
-
-# Academic Policies Assistant (RAG + Guardrails)
-# Streamlit app tailored for RMIT Academic Policies
-# Author: Your Team
-# --------------------------------------------------
-# Features
-# - Professional UI focused on Academic Policies
-# - Clause-level RAG (FAISS + MiniLM) with precise citations
-# - Guard-railed system prompt (scope, safety, refusal, privacy)
-# - Conversation memory (rolling summary + last turns)
-# - Policy index builder from JSON uploads; manifest + freshness badge
-# - Controls: top-k, temperature, top_p, min score threshold
-# - Observability: retrieved clauses + scores, latency
-#
-# Requirements (add to requirements.txt):
-# streamlit
-# sentence-transformers
-# faiss-cpu
-# boto3
-# PyPDF2  (optional; not used here but common in your repo)
-#
-# Environment:
-#   BEDROCK_REGION=ap-southeast-2
-#   BEDROCK_MODEL_ID=anthropic.claude-3-haiku-20240307-v1:0  (or sonnet)
-# AWS credentials should be available via your usual chain (env/SSO/role).
-# --------------------------------------------------
-
 import os
 import re
 import io
