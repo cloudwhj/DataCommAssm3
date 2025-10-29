@@ -630,14 +630,6 @@ def main():
         st.markdown("- Example: *How do I appeal my final grade?*")
 
         st.divider()
-        st.subheader("Retrieval & Generation")
-        top_k = st.slider("Top-k passages", 3, 10, DEFAULT_TOP_K, 1)
-        min_score = st.slider("Min similarity threshold", 0.0, 0.9, DEFAULT_MIN_SCORE, 0.05)
-        temperature = st.slider("Temperature", 0.0, 1.0, DEFAULT_TEMPERATURE, 0.05)
-        top_p = st.slider("Top-p", 0.1, 1.0, DEFAULT_TOP_P, 0.05)
-        model_id = st.selectbox("Model", [BEDROCK_MODEL_ID, "anthropic.claude-3-sonnet-20240229-v1:0"])
-
-        st.divider()
         st.subheader("Knowledge Base")
         freshness_badge(st.session_state.manifest)
         uploaded = st.file_uploader("Upload Academic Policy JSON files", type=["json"], accept_multiple_files=True)
@@ -678,86 +670,80 @@ def main():
         st.session_state.passages = passages
         st.session_state.manifest = manifest
 
-    # ---------- Two columns ----------
-    col_chat, col_side = st.columns([7, 5], gap="large")
+    top_k = DEFAULT_TOP_K
+    min_score = DEFAULT_MIN_SCORE
+    temperature = DEFAULT_TEMPERATURE
+    top_p = DEFAULT_TOP_P
+    model_id = BEDROCK_MODEL_ID
 
-    # ---------- Right column (status & session controls) ----------
-    with col_side:
-        st.subheader("Data Freshness")
-        freshness_badge(st.session_state.manifest)
-
-        st.subheader("Controls")
-        st.markdown(f"- **Top-k:** {top_k}")
-        st.markdown(f"- **Min score:** {min_score}")
-        st.markdown(f"- **Temperature:** {temperature}")
-        st.markdown(f"- **Top-p:** {top_p}")
-
-        st.subheader("Session")
-        if st.button("Start New Session"):
+    # ---------- Layout columns ----------
+    cols_top = st.columns([1, 4, 1])
+    with cols_top[1]:
+        if st.button("🗘 Start New Session", use_container_width=True):
             st.session_state.messages = []
             st.session_state.summary = ""
             st.success("Session cleared.")
 
-    # ---------- Left column (fixed-height scrollable chat window) ----------
-    with col_chat:
-        st.subheader("Chat")
 
-        # CSS for a fixed-height, scrollable chat pane + nicer bubbles
-        st.markdown(
-            """
-            <style>
-                .chat-window {
-                    height: 65vh;              /* viewport-based height */
-                    overflow-y: auto;          /* scroll within the chat area */
-                    padding: 0.75rem 1rem;
-                    border: 1px solid rgba(128,128,128,0.25);
-                    border-radius: 12px;
-                    background: rgba(240, 240, 240, 0.25);
-                }
-                .msg {
-                    margin: 0.5rem 0;
-                    padding: 0.75rem 0.9rem;
-                    border-radius: 10px;
-                    line-height: 1.35;
-                    white-space: pre-wrap;
-                    word-wrap: break-word;
-                }
-                .msg-user {
-                    background: rgba(0, 120, 212, 0.10);
-                    border: 1px solid rgba(0, 120, 212, 0.20);
-                }
-                .msg-assistant {
-                    background: rgba(0, 0, 0, 0.03);
-                    border: 1px solid rgba(128,128,128,0.20);
-                }
-                .msg small {
-                    display: block;
-                    margin-top: 0.35rem;
-                    opacity: 0.65;
-                    font-size: 0.85em;
-                }
-                /* Add extra bottom padding so sticky input never overlaps content */
-                div.block-container { padding-bottom: 7rem; }
-            </style>
-            """,
-            unsafe_allow_html=True
-        )
+    # Chat area
+    st.subheader("Chat")
+
+    # Taller chat window + sticky input
+    st.markdown(
+        """
+        <style>
+            .chat-window {
+                height: 78vh;
+                overflow-y: auto;
+                padding: 0.75rem 1rem;
+                border: 1px solid rgba(128,128,128,0.25);
+                border-radius: 12px;
+                background: rgba(240, 240, 240, 0.25);
+            }
+            .msg {
+                margin: 0.5rem 0;
+                padding: 0.75rem 0.9rem;
+                border-radius: 10px;
+                line-height: 1.35;
+                white-space: pre-wrap;
+                word-wrap: break-word;
+            }
+            .msg-user {
+                background: rgba(0, 120, 212, 0.10);
+                border: 1px solid rgba(0, 120, 212, 0.20);
+            }
+            .msg-assistant {
+                background: rgba(0, 0, 0, 0.03);
+                border: 1px solid rgba(128,128,128,0.20);
+            }
+            .msg small {
+                display: block;
+                margin-top: 0.35rem;
+                opacity: 0.65;
+                font-size: 0.85em;
+            }
+            /* ensure space for sticky input */
+            div.block-container { padding-bottom: 7rem; }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
 
         # Render messages into the fixed-height window
-        chat_html = ["<div class='chat-window'>"]
-        for m in st.session_state.messages:
-            role_class = "msg-user" if m["role"] == "user" else "msg-assistant"
-            citations = ""
-            if m["role"] == "assistant" and m.get("citations"):
-                citations = f"<small>Citations: {' • '.join(m['citations'])}</small>"
-            # Escape/format minimal; Streamlit markdown handles basic safety—this is static HTML block
-            content_html = st._escape_markdown(m["content"]) if hasattr(st, "_escape_markdown") else m["content"]
-            chat_html.append(f"<div class='msg {role_class}'>{content_html}{citations}</div>")
-        chat_html.append("</div>")
-        st.markdown("".join(chat_html), unsafe_allow_html=True)
+    chat_html = ["<div class='chat-window'>"]
+    for m in st.session_state.messages:
+        role_class = "msg-user" if m["role"] == "user" else "msg-assistant"
+        citations = ""
+        if m["role"] == "assistant" and m.get("citations"):
+            citations = f"<small>Citations: {' • '.join(m['citations'])}</small>"
+        # Escape/format minimal; Streamlit markdown handles basic safety—this is static HTML block
+        content_html = st._escape_markdown(m["content"]) if hasattr(st, "_escape_markdown") else m["content"]
+        chat_html.append(f"<div class='msg {role_class}'>{content_html}{citations}</div>")
+    chat_html.append("</div>")
+    st.markdown("".join(chat_html), unsafe_allow_html=True)
 
     # Input at the bottom
-        user_q = st.chat_input("Ask about academic policies...")
+    user_q = st.chat_input("Ask about academic policies...")
     if user_q:
         # Update dialog state (topic/entities)
         update_dialog_state(user_q)
@@ -811,7 +797,7 @@ def main():
         if not strong_hits:
             answer = (
                 "I can’t find this clearly in the policies I have. "
-                "Please consider contacting Student Connect: 1300 ASK RMIT."
+                "Please consider contacting Student Connect: 1300 ASK RMIT or reach out to them via 'https://www.rmit.edu.au/students/support-services/student-connect'."
             )
             add_message("assistant", answer, citations=[])
             st.rerun()
