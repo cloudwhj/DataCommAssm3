@@ -502,6 +502,12 @@ Core rules:
 5) Neutral, concise, helpful tone. Ask one clarifying question when the query is ambiguous or missing critical details.
 6) Conflicts: If policies seem conflicting, present both sides with citations and suggest contacting Student Connect for confirmation.
 7) Formatting: Prefer short paragraphs or bullet points. Always include citations at the end of lines.
+8) Do NOT repeat or quote the raw context text.
+9) Do NOT print the words "User:", "Assistant:", "Relevant policy excerpts", or any XML tags I give you.
+
+Output requirements:
+- Direct, concise answer only (no preambles, no bullet of raw excerpts).
+- Include citations inline for factual statements.
 """
 
 def build_user_prompt(user_q: str, retrieved: List[Dict[str, Any]], min_score: float, conv_ctx: str) -> Tuple[str, List[str]]:
@@ -526,11 +532,11 @@ def build_user_prompt(user_q: str, retrieved: List[Dict[str, Any]], min_score: f
     prompt = (
         f"{SYSTEM_PROMPT.strip()}\n\n"
         f"{conv_ctx}\n\n"
-        f"User question:\n{user_q}\n\n"
-        f"Relevant policy excerpts (do not repeat them verbatim, only use them for reference):\n"
-        f"{hidden_context}\n\n"
-        f"Answer concisely with bracketed citations after each factual line. "
-        f"Do not include 'Relevant policy excerpts' in your answer."
+        f"<policy_context>\n{hidden_context}\n</policy_context>\n\n"
+        f"Question: {user_q}\n\n"
+        "Use ONLY the information inside <policy_context> plus the chat history to answer. "
+        "Never print or list the contents of <policy_context>. "
+        "Answer directly in 1–6 sentences with bracketed citations."
     )
     return prompt, citations
 
