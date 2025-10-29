@@ -39,6 +39,7 @@ from datetime import datetime, timezone
 from typing import List, Dict, Any, Tuple
 from sentence_transformers import SentenceTransformer
 import boto3
+import re
 
 # ---------------------------
 # Configuration
@@ -74,7 +75,11 @@ APP_CLIENT_ID = "3p3lrenj17et3qfrnvu332dvka"
 USERNAME = "cludwhj2003@gmail.com" # Replace with your username
 PASSWORD = "dis5lik-E"    # Replace with your password
 
-
+BLOCKLIST_PATTERNS = [
+    r"^\s*User:\s*.*$",                      # lines starting with 'User:'
+    r"^\s*Assistant:\s*.*$",                 # lines starting with 'Assistant:'
+    r"^\s*Relevant policy excerpts:?[\s\S]*$",  # any dumped excerpt header + following content
+]
 
 def get_credentials(username, password):
     idp_client = boto3.client("cognito-idp", region_name=COGNITO_REGION)
@@ -540,6 +545,14 @@ def build_user_prompt(user_q: str, retrieved: List[Dict[str, Any]], min_score: f
     )
     return prompt, citations
 
+def sanitize_model_answer(text: str) -> str:
+    # Remove XML tags if model prints them anyway
+    text = re.sub(r"</?policy_context>", "", text, flags=re.IGNORECASE)
+    # Drop any blocklisted lines/sections
+    for pat in BLOCKLIST_PATTERNS:
+        text = re.sub(pat, "", text, flags=re.IGNORECASE | re.MULTILINE)
+    # Trim extra whitespace
+    return re.sub(r"\n{3,}", "\n\n", text).strip()
 
 # ---------------------------
 # Bedrock (Anthropic Messages API)
@@ -823,8 +836,9 @@ def main():
             model_answer = f"Error contacting Bedrock: {e}"
         t_gen = (time.time() - t1) * 1000
 
+        model_answer = sanitize_model_answer(model_answer)
         add_message("assistant", model_answer, citations=citations)
-        add_message("assistant", f"_Retrieval: {t_retrieval:.0f} ms • Generation: {t_gen:.0f} ms_", citations=[])
+        add_message("assistant", f"Retrieval: {t_retrieval:.0f} ms • Generation: {t_gen:.0f} ms", citations=[])
         st.rerun()
 
 
