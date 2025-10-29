@@ -1,0 +1,100 @@
+# =====================================
+# Python / Streamlit / RAG Chatbot
+# =====================================
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.spec
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+
+# Logs and temp
+*.log
+logs/
+debug/
+tmp/
+temp/
+__output__/
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# =====================================
+# Streamlit / Runtime / Local State
+# =====================================
+.streamlit/secrets.toml
+.streamlit/config.toml
+.streamlit/state.json
+
+# =====================================
+# Auto-generated Index & Cache Files
+# =====================================
+data/index/faiss.index
+data/index/manifest.json
+data/index/passages.json
+vector_index/
+index_cache/
+
+# =====================================
+# Data & Uploads
+# =====================================
+# Keep JSON policies, ignore raw uploads or caches
+data/uploads/
+uploads/
+*.pdf
+
+# =====================================
+# AWS & Private Keys
+# =====================================
+.aws/
+credentials/
+*.pem
+*.key
+*.crt
+*.csr
+*.der
+*.cer
+
+# =====================================
+# Other Configs & Hidden Files
+# =====================================
+*.env
+*.venv
+*.ini
+*.cfg
+*.toml
+config.json
+settings.json
+aws_credentials.json
+
+# =====================================
+# Keep project essentials
+# =====================================
+!data/policies/**/*.json
+!data/policies/*.json
+!README.md
+!requirements.txt
+!app.py
+!rag_policies.py

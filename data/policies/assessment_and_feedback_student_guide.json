@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "title": "RMIT Student Guide – Assessments and Feedback",
+    "approval_date": "",
+    "review_date": "2025-10-29",
+    "contacts": [
+      {
+        "name": "IT Service Connect",
+        "url": "https://www.rmit.edu.au/students/support-services/it-support-systems/it-service-connect",
+        "notes": "Technical support for online submission issues"
+      },
+      {
+        "name": "Course Coordinator / Program Manager",
+        "notes": "For review or appeal of results"
+      }
+    ],
+    "source_path": "https://www.rmit.edu.au/students/my-course/assessment-results",
+    "pages": 6
+  },
+  "structure": [
+    {
+      "part_title": "Assessment and Feedback Guide",
+      "sections": [
+        {
+          "section_title": "Finding Your Assessments",
+          "clauses": [
+            {
+              "clause_number": "1",
+              "text": "Students can find their assessments listed in Canvas or in the course guide. Canvas provides detailed information such as due dates, rubrics, and submission methods.",
+              "subclauses": [
+                "Log in to Canvas using your RMIT ID and password.",
+                "Select Courses in the navigation bar.",
+                "Select Assignments to view all assessment tasks.",
+                "Select each assignment to see details including due date and rubric."
+              ]
+            },
+            {
+              "clause_number": "2",
+              "text": "In each course guide, the section Overview of assessment outlines the types of assessments students must undertake.",
+              "subclauses": []
+            },
+            {
+              "clause_number": "3",
+              "text": "Some courses include online timed assessments or on-campus exams scheduled during the assessment period. Refer to the Timed Assessments and On-Campus Exams page for details.",
+              "subclauses": []
+            }
+          ]
+        },
+        {
+          "section_title": "Submitting Assessments",
+          "clauses": [
+            {
+              "clause_number": "4",
+              "text": "Most assessments at RMIT are submitted online via Canvas using Turnitin software. Submissions include an online assessment declaration.",
+              "subclauses": [
+                "Go to the Canvas webpage for detailed submission instructions.",
+                "Ensure that all files are uploaded correctly before the due date."
+              ]
+            },
+            {
+              "clause_number": "5",
+              "text": "If you encounter technical faults when submitting online, take a screenshot of the error message and record the time it occurred. Notify your teacher and contact IT Service Connect.",
+              "subclauses": []
+            },
+            {
+              "clause_number": "6",
+              "text": "Some assessments must be submitted physically, such as creative works or artefacts. Physical submissions must include a completed and signed cover sheet and declaration.",
+              "subclauses": []
+            }
+          ]
+        },
+        {
+          "section_title": "Assessment Declaration",
+          "clauses": [
+            {
+              "clause_number": "7",
+              "text": "When submitting work for assessment, students must agree to the Declaration and Statement of Authorship, affirming the originality of their work and understanding of plagiarism.",
+              "subclauses": [
+                "The assessment is original and not copied from other sources except where acknowledged.",
+                "No impersonation or unauthorized collaboration occurred.",
+                "Permission is granted for assessment responses to be reproduced and archived for plagiarism detection.",
+                "Plagiarism is a serious academic offence that can lead to exclusion.",
+                "Students must cite all material appropriately and not assist others in plagiarism."
+              ]
+            },
+            {
+              "clause_number": "8",
+              "text": "If the declaration is not agreed to or signed, the assessment will not be valid and will not count toward the final result.",
+              "subclauses": []
+            }
+          ]
+        },
+        {
+          "section_title": "Assessment Feedback",
+          "clauses": [
+            {
+              "clause_number": "9",
+              "text": "Teaching staff will provide feedback to assist in improving performance. Students should receive feedback within 10 working days of submission.",
+              "subclauses": [
+                "Students may request feedback if it is not received within the timeframe.",
+                "Feedback may be provided in various forms including class discussions, rubrics, one-on-one sessions, or group feedback."
+              ]
+            },
+            {
+              "clause_number": "10",
+              "text": "Rubrics outline individual assessment criteria and enable consistent, transparent marking. Teachers use rubrics to show how each criterion was met.",
+              "subclauses": []
+            },
+            {
+              "clause_number": "11",
+              "text": "Students are encouraged to reflect on feedback to improve future performance and achievement levels.",
+              "subclauses": []
+            }
+          ]
+        },
+        {
+          "section_title": "Review and Appeal of Final Course Results",
+          "clauses": [
+            {
+              "clause_number": "12",
+              "text": "If students believe there has been an error impacting their final result, they may request a review (stage 1) followed by an appeal (stage 2) if the issue remains unresolved.",
+              "subclauses": [
+                "Stage 1 Review: Contact the Course Coordinator or Program Manager to request a review within 5 working days of the result publication.",
+                "Stage 2 Appeal: If unsatisfied after stage 1, submit an appeal via the RMIT appeals portal.",
+                "More information is available in the Appeals and Assessment Processes, Chapter 7."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "qa_index": []
+}

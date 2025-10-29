@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "title": "RMIT Student Guide – Assessment Extensions Tool",
+    "approval_date": "",
+    "review_date": "2025-09-18",
+    "contacts": [
+      {
+        "name": "IT Connect",
+        "phone": "+61 3 9925 8000",
+        "email": "",
+        "notes": "Technical difficulties"
+      },
+      {
+        "name": "ELS Team",
+        "email": "els@rmit.edu.au",
+        "notes": "ELP-related requests"
+      }
+    ],
+    "source_path": "https://www.rmit.edu.au/students/my-course/assessment-results/special-consideration-extensions/special-consideration?activeTab=Supporting%20documentation",
+    "pages": 4
+  },
+  "structure": [
+    {
+      "part_title": "Assessment Extensions Tool Guide",
+      "sections": [
+        {
+          "section_title": "Overview",
+          "clauses": [
+            {
+              "clause_number": "1",
+              "text": "The Assessment Extensions Tool is a web-based application within Canvas that enables students to request and manage assessment extensions from within their courses.",
+              "subclauses": []
+            }
+          ]
+        },
+        {
+          "section_title": "How to Access the Assessment Extensions Tool",
+          "clauses": [
+            {
+              "clause_number": "2",
+              "text": "The Assessment Extensions Tool can be accessed from the Course Navigation Menu in Canvas.",
+              "subclauses": []
+            }
+          ]
+        },
+        {
+          "section_title": "Assessment Extensions Dashboard",
+          "clauses": [
+            {
+              "clause_number": "3",
+              "text": "The dashboard explains what an extension is and displays the extension requests a student has submitted for the course.",
+              "subclauses": []
+            }
+          ]
+        },
+        {
+          "section_title": "How to submit an Extension Request",
+          "clauses": [
+            {
+              "clause_number": "4",
+              "text": "An assessment extension request must be completed and submitted no later than one business day before the official assessment due date.",
+              "subclauses": []
+            },
+            {
+              "clause_number": "5",
+              "text": "Steps to submit a request: select the relevant assessment, indicate whether you are applying under an Equitable Learning Plan (ELP), choose the number of days of extension requested (maximum of seven days unless applying under an ELP), provide an explanation, attach supporting documentation, and accept the Applicant Declaration Agreement Statement.",
+              "subclauses": [
+                "Select the assessment for which an extension is requested (required).",
+                "Indicate if applying for an ELP consideration.",
+                "Select the number of days requested (maximum seven days unless an ELP applies) (required).",
+                "Provide an explanation for the request (required).",
+                "Provide supporting documents (ELP requests require a copy of the plan).",
+                "Accept the Applicant Declaration Agreement Statement (required)."
+              ]
+            },
+            {
+              "clause_number": "6",
+              "text": "After submission, the new request appears on the dashboard with the status set to Pending.",
+              "subclauses": []
+            }
+          ]
+        },
+        {
+          "section_title": "Frequently Asked Questions",
+          "clauses": [
+            {
+              "clause_number": "7",
+              "text": "Statuses in the Assessment Extensions Tool include: Pending (submitted, awaiting review), Approved (approved by the course coordinator), and Denied (declined by the course coordinator).",
+              "subclauses": [
+                "Pending — The request has been submitted but is yet to be reviewed by the course coordinator.",
+                "Approved — The request has been approved by the course coordinator.",
+                "Denied — The request has been declined by the course coordinator."
+              ]
+            },
+            {
+              "clause_number": "8",
+              "text": "Cancelling an extension request is possible only while the status is Pending via the Extension requests tab; select the application and press Cancel.",
+              "subclauses": [
+                "Open the Extension requests tab.",
+                "Select the application request to cancel (must be Pending).",
+                "Click Cancel to withdraw the application."
+              ]
+            },
+            {
+              "clause_number": "9",
+              "text": "Assessment visibility rules in the tool are based on Canvas data: an assessment is shown only if its due date is in the future and more than one working day away; it is not shown if the due date is less than one working day away, has passed, or has no due date.",
+              "subclauses": [
+                "If the due date is in the future and more than one working day away, the assessment is displayed.",
+                "If the due date is in the future but less than one working day away, the assessment is not displayed.",
+                "If the due date has passed, the assessment is not displayed.",
+                "If the assessment has no due date, it is not displayed.",
+                "If an extension of up to seven days has already been approved in the tool, the assessment will not be displayed."
+              ]
+            },
+            {
+              "clause_number": "10",
+              "text": "If an extension request is denied, you may be able to submit a new request depending on the due date and the feedback provided. Review feedback before resubmitting and contact the Course Coordinator or Program Manager for questions.",
+              "subclauses": [
+                "For ELP-related requests, you may share the request URL with the ELS team via els@rmit.edu.au."
+              ]
+            },
+            {
+              "clause_number": "11",
+              "text": "If you change classes after an extension is approved, verify that the assignment has the correct new submission date. If not, contact your Course Coordinator or Program Manager.",
+              "subclauses": []
+            },
+            {
+              "clause_number": "12",
+              "text": "For technical issues accessing the Assessment Extensions Tool, raise a support ticket with IT Connect or call +61 3 9925 8000.",
+              "subclauses": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "qa_index": []
+}

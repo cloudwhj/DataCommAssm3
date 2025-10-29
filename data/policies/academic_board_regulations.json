@@ -1,0 +1,641 @@
+{
+  "metadata": {
+    "status": "and",
+    "review_date": "1st January 2030",
+    "approval_authority": "Senior Governance Oﬃcer",
+    "approval_date": "21st October 2024",
+    "expiry_date": "Not Applicable",
+    "enquiries_contact": "Council Secretariat",
+    "title": "Academic Board Regulations",
+    "source_path": "/mnt/data/Academic_Board_Regulations.pdf",
+    "pages": 6
+  },
+  "structure": [
+    {
+      "part_label": "Part A",
+      "part_title": "PRELIMINARY",
+      "sections": [
+        {
+          "section_number": 1,
+          "section_title": "Purpose",
+          "clauses": [
+            {
+              "clause_number": 1,
+              "text": "The purpose of these Regulations is to: define the purpose and functions of the Academic Boarda. make provision for the membership of the Academic Boardb. make provision for the appointment of the Chair and Deputy Chair of Academic Board; andc. provide for meetings of the Academic Board.d.",
+              "subclauses": []
+            }
+          ]
+        },
+        {
+          "section_number": 2,
+          "section_title": "Authorising Provision",
+          "clauses": [
+            {
+              "clause_number": 2,
+              "text": "The Academic Board is required to be established by Council pursuant to section 20 of the Royal Melbourne Institute of Technology Act 2010 .",
+              "subclauses": []
+            },
+            {
+              "clause_number": 3,
+              "text": "The functions of the Academic Board are established under Part 4 of the RMIT Statute No. 1 (Amendment No. 2).",
+              "subclauses": []
+            },
+            {
+              "clause_number": 4,
+              "text": "These Regulations are made pursuant to sections 28, 29 and 30 of the Royal Melbourne Institute of Technology Act 2010 and Part 4 of the RMIT Statute No. 1 (Amendment No. 2) .",
+              "subclauses": []
+            }
+          ]
+        },
+        {
+          "section_number": 3,
+          "section_title": "Definitions",
+          "clauses": [
+            {
+              "clause_number": 5,
+              "text": "In these Regulations, unless the contrary intention appears: academic staff means those higher education employees of the University within the meaning of the collectivea. agreement or award that applies to Higher Education employees, appointed to an established position and being not less than 0.5 of a full time position. professional staff means those professional, administrative, clerical, computing and technical employees of theb. University within the meaning of the applicable collective agreement or award appointed to an established position and being not less than 0.5 of a full time position. senior academic staff means academic classification levels C, D and E within the meaning of the applicablec. collective agreement or award appointed to an established position and being not less than 0.5 of a full time position senior teaching staff means classification level Senior Educator Level 1, Senior Educator Level 2 and Seniord. Educator Level 3 within the meaning of the applicable collective agreement or award appointed to an established position and being not less than 0.5 of a full time position teaching staff means those VE employees of the University within the meaning of the collective agreement ore. award that applies to VE employees appointed to an established position and being not less than 0.5 of a full time position.",
+              "subclauses": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_label": "Part B",
+      "part_title": "THE ACADEMIC BOARD",
+      "sections": [
+        {
+          "section_number": 5,
+          "section_title": "Membership of the Academic Board",
+          "clauses": [
+            {
+              "clause_number": 10,
+              "text": "Membership of the Academic Board comprises: Chair, Academic Boarda. Deputy Chair, Academic Boardb. Chairs of Academic Board Standing Committees who are not already members of Academic Boardc. ex officio members:d. Chancellor (or nominee)i. Vice-Chancellor and Presidentii. Deputy Vice-Chancellor Education and Vice-Presidentiii. Deputy Vice-Chancellor Research and Innovation and Vice-Presidentiv. Deputy Vice-Chancellor International and Engagement and Vice-Presidentv. Deputy Vice-Chancellor College of Business and Law and Vice-Presidentvi. Deputy Vice-Chancellor College of Design and Social Context and Vice-Presidentvii. Deputy Vice-Chancellor STEM College and Vice-Presidentviii. Deputy Vice-Chancellor College of Vocational Education and Vice-Presidentix. Executive Director, Library Servicesx. Associate Deputy Vice-Chancellor Education, Learning, Teaching and Qualityxi. Associate Deputy Vice-Chancellor Research Training and Developmentxii. Associate Deputy Vice-Chancellor, Research and Innovation Capabilityxiii. University Secretary and Academic Registrar xiv. Pro Vice-Chancellor Vietnam and General Director, RMIT Vietnam or nomineexv. President, RMIT University Student Union xvi. President, RMIT Vietnam Student Council xvii. one (1) Aboriginal and/or Torres Strait Islander academic nominated by the Chair of Academic Board xviii. This document may be varied, withdrawn or replaced at any time. Printed copies, or part thereof, are regarded as unauthorised and should not be relied upon as the current version. It is the responsibility of the reader to refer to RMIT's Policy Register for the latest version of this document.Page 3 of 6University Secretary xix. Pro Vice-Chancellor, Indigenous Education, Research and Engagementxx. Aboriginal and/or Torres Strait Islander Elder in Residence xxi. Chief Executive Officer, RMIT Online xxii. Chief Executive Officer, RMIT Training xxiii. Chair, Professorial Academy, or nominee drawn from the Professorial Academy xxiv. one (1) Head of School, Dean or Executive Dean from each higher education college, elected by the academice. staff of each college two (2) senior academics/teaching staff in a non-executive role from each college elected by the academic andf. teaching staff of each college two (2) academic staff from each college, elected by and from the academic staff of each collegeg. one (1) member elected by and from the postgraduate students of the Universityh. one (1) member elected by and from the higher degree by research students of the Universityi. two (2) members elected by and from the undergraduate students of the Universityj. two (2) members elected by and from the students enrolled in VE or associate degree programs of thek. University two (2) members elected by and from the professional staffl. five (5) members elected by and from the academic staffm. five (5) members elected by and from the teaching staffn. four (4) members elected by and from the professors of the University occupying a Level E appointment, noto. including honorary or adjunct professors. The Board may co-opt prescribed ‘in attendee’ members for a specified period with specific expertise who dop. not have voting rights for the duration of their co-option.",
+              "subclauses": []
+            },
+            {
+              "clause_number": 11,
+              "text": "Clauses (10)f, l, m and n include employees of the University at Executive Level 1, Heads of School, Deans and Directors.",
+              "subclauses": []
+            },
+            {
+              "clause_number": 12,
+              "text": "The University Secretary, or nominee is the secretary of the Academic Board.",
+              "subclauses": []
+            }
+          ]
+        },
+        {
+          "section_number": 6,
+          "section_title": "Term of Office and Vacancies",
+          "clauses": [
+            {
+              "clause_number": 13,
+              "text": "An elected member: holds office for a period of two (2) years except that student members will hold office for a term of one (1) year,a. and assumes office on the first day of January following the member’s election unless the member is replacing ab. vacancy under clauses (14), (15) or (16), in which case the elected member may assume office at the next meeting.",
+              "subclauses": []
+            },
+            {
+              "clause_number": 14,
+              "text": "Where a member of the Academic Board: elected by staff ceases to be a member of staff, ora. elected by enrolled students, ceases to be an enrolled student,b. that member ceases to be a member of the Academic Board and the vacancy thereby created is a casual vacancy.",
+              "subclauses": []
+            },
+            {
+              "clause_number": 15,
+              "text": "Any vacancy created in the membership of the Academic Board is dealt with in accordance with the provisions of the Elections Regulations .",
+              "subclauses": []
+            },
+            {
+              "clause_number": 16,
+              "text": "Where an elected member of the Academic Board is to be absent from the University for a period exceeding six This document may be varied, withdrawn or replaced at any time. Printed copies, or part thereof, are regarded as unauthorised and should not be relied upon as the current version. It is the responsibility of the reader to refer to RMIT's Policy Register for the latest version of this document.Page 4 of 6(6) months a person may be appointed by the Chair of the Academic Board for the duration of the absence of the elected member.",
+              "subclauses": []
+            },
+            {
+              "clause_number": 17,
+              "text": "All elections to the Academic Board must be conducted in accordance with the Statute and Elections Regulations, unless otherwise specified.",
+              "subclauses": []
+            }
+          ]
+        },
+        {
+          "section_number": 7,
+          "section_title": "Office Bearers",
+          "clauses": [
+            {
+              "clause_number": 18,
+              "text": "The Board shall in every second calendar year elect from amongst its members a Chair and Deputy Chair who will hold office for a period of two (2) years.",
+              "subclauses": []
+            },
+            {
+              "clause_number": 19,
+              "text": "The Chair and Deputy Chair must be a senior academic or senior educator in accordance with the definitions provided under regulation 3(1).",
+              "subclauses": []
+            },
+            {
+              "clause_number": 20,
+              "text": "A person may not serve as Chair or Deputy Chair while they are: an ex-officio member of the Academic Board, ora. a Head of School, Dean or Executive Dean of a University school.b.",
+              "subclauses": []
+            },
+            {
+              "clause_number": 21,
+              "text": "A call for nominations to members of the Academic Board for the position of Chair and Deputy Chair is made by the Board secretary not less than ten (10) working days prior to the first day of the ballot period.",
+              "subclauses": []
+            },
+            {
+              "clause_number": 22,
+              "text": "Nominations for the position of Chair and Deputy Chair may be submitted by a date set by the Board secretary no later than one (1) working day prior to the first day of the ballot period.",
+              "subclauses": []
+            },
+            {
+              "clause_number": 23,
+              "text": "If more than one nomination is received for each position, the Board secretary will conduct an election for that position.",
+              "subclauses": []
+            },
+            {
+              "clause_number": 24,
+              "text": "The Board secretary, not later than five (5) working days prior to the last day of the ballot period, notifies members of the Academic Board of: the nominations received, anda. the process for voting (by secret ballot)b.",
+              "subclauses": []
+            },
+            {
+              "clause_number": 25,
+              "text": "Where the Chair of the Academic Board is absent from the University the Deputy Chair will preside and assume all functions and duties of the Chair.",
+              "subclauses": []
+            },
+            {
+              "clause_number": 26,
+              "text": "If the Deputy Chair is required to act as Chair but is unavailable or unable to do so, the Council may by resolution appoint an interim Acting Chair for a specified period.",
+              "subclauses": []
+            },
+            {
+              "clause_number": 27,
+              "text": "The Chair or Deputy Chair positions will become vacant if the occupant: resigns from their office bearer position.a.",
+              "subclauses": []
+            },
+            {
+              "clause_number": 28,
+              "text": "If the office of Chair becomes vacant on or after the last six months of the Chair’s term, the vacancy must be filled by the Deputy Chair.",
+              "subclauses": []
+            },
+            {
+              "clause_number": 29,
+              "text": "If the Deputy Chair is required to act as Chair but is unavailable or unable to do so, the Council may by resolution appoint a Chair for the remainder of the term.",
+              "subclauses": []
+            },
+            {
+              "clause_number": 30,
+              "text": "If the office of Chair becomes vacant before the last six months of the Chair’s term, a new Chair must be elected as soon as possible in accordance with the office bearer election provisions of these regulations. This document may be varied, withdrawn or replaced at any time. Printed copies, or part thereof, are regarded as unauthorised and should not be relied upon as the current version. It is the responsibility of the reader to refer to RMIT's Policy Register for the latest version of this document.Page 5 of 68. Meetings of the Academic Board",
+              "subclauses": []
+            },
+            {
+              "clause_number": 31,
+              "text": "Meetings of the Academic Board are conducted in accordance with the Standing Orders of Academic Board .",
+              "subclauses": []
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "This document may be varied, withdrawn or replaced at any time. Printed copies, or part thereof, are regarded as unauthorised and should not be relied",
+        "upon as the current version. It is the responsibility of the reader to refer to RMIT's Policy Register for the latest version of this document.Page 2 of 64. Purpose and Functions of the Academic Board",
+        "(6) The Academic Board is the principal academic governing body responsible for oversight of RMIT's academic affairs",
+        "across the RMIT Group.",
+        "(7) The responsibilities of the Academic Board are derived from:",
+        "its functions established in the RMIT Statute No. 1 (Amendment No. 2).a.",
+        "the academic governance requirements of the Higher Education Standards Framework (Threshold Standards)b.",
+        "2021, namely that the Academic Board is the body that oversees Academic Governance across the RMIT Group.",
+        "the Standards for Registered Training Organisations (RTOs) 2015, Part 4, RTO governance and administrationc.",
+        "(8) Consistent to the purpose and functions noted above, Academic Board is responsible for governance of all aspects",
+        "of the University’s academic mission inclusive of learning and teaching, scholarship, research and research training.",
+        "(9) The Academic Board fulfills its responsibilities by monitoring and providing oversight of the following:",
+        "academic quality, standards and outcomes;a.",
+        "academic and research integrity;b.",
+        "academic innovation and risk; andc.",
+        "academic freedom.d."
+      ]
+    },
+    {
+      "part_label": "Part C",
+      "part_title": "REVOCATION OF REGULATIONS",
+      "sections": [
+        {
+          "section_number": 9,
+          "section_title": "Revocation of Regulations",
+          "clauses": [
+            {
+              "clause_number": 32,
+              "text": "On the commencement of these Regulations the following Regulations are revoked: Regulation 2.8.1 The Academic Board – Membership.a. This document may be varied, withdrawn or replaced at any time. Printed copies, or part thereof, are regarded as unauthorised and should not be relied upon as the current version. It is the responsibility of the reader to refer to RMIT's Policy Register for the latest version of this document.Page 6 of 6Status and Details Status Current Eﬀective Date 1st January 2025 Review Date 1st January 2030 Approval Authority Senior Governance Oﬃcer Approval Date 21st October 2024 Expiry Date Not Applicable Policy OwnerConnie Merlino University Secretary and Academic Registrar Policy AuthorConnie Merlino University Secretary and Academic Registrar Enquiries Contact Council Secretariat Glossary Terms and Definitions \"RMIT Group\" - RMIT University and its controlled entities (RMIT Europe, RMIT Online, RMIT Vietnam, RMIT University Pathways)",
+              "subclauses": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "qa_index": [
+    {
+      "id": "S.1",
+      "type": "section",
+      "title": "Purpose",
+      "path": [
+        "Part A",
+        "Purpose"
+      ],
+      "text": "The purpose of these Regulations is to: define the purpose and functions of the Academic Boarda. make provision for the membership of the Academic Boardb. make provision for the appointment of the Chair and Deputy Chair of Academic Board; andc. provide for meetings of the Academic Board.d."
+    },
+    {
+      "id": "C.1(1)",
+      "type": "clause",
+      "title": "Purpose",
+      "path": [
+        "Part A",
+        "Purpose",
+        "(1)"
+      ],
+      "text": "The purpose of these Regulations is to: define the purpose and functions of the Academic Boarda. make provision for the membership of the Academic Boardb. make provision for the appointment of the Chair and Deputy Chair of Academic Board; andc. provide for meetings of the Academic Board.d.",
+      "subclauses": []
+    },
+    {
+      "id": "S.2",
+      "type": "section",
+      "title": "Authorising Provision",
+      "path": [
+        "Part A",
+        "Authorising Provision"
+      ],
+      "text": "The Academic Board is required to be established by Council pursuant to section 20 of the Royal Melbourne Institute of Technology Act 2010 . The functions of the Academic Board are established under Part 4 of the RMIT Statute No. 1 (Amendment No. 2). These Regulations are made pursuant to sections 28, 29 and 30 of the Royal Melbourne Institute of Technology Act 2010 and Part 4 of the RMIT Statute No. 1 (Amendment No. 2) ."
+    },
+    {
+      "id": "C.2(2)",
+      "type": "clause",
+      "title": "Authorising Provision",
+      "path": [
+        "Part A",
+        "Authorising Provision",
+        "(2)"
+      ],
+      "text": "The Academic Board is required to be established by Council pursuant to section 20 of the Royal Melbourne Institute of Technology Act 2010 .",
+      "subclauses": []
+    },
+    {
+      "id": "C.2(3)",
+      "type": "clause",
+      "title": "Authorising Provision",
+      "path": [
+        "Part A",
+        "Authorising Provision",
+        "(3)"
+      ],
+      "text": "The functions of the Academic Board are established under Part 4 of the RMIT Statute No. 1 (Amendment No. 2).",
+      "subclauses": []
+    },
+    {
+      "id": "C.2(4)",
+      "type": "clause",
+      "title": "Authorising Provision",
+      "path": [
+        "Part A",
+        "Authorising Provision",
+        "(4)"
+      ],
+      "text": "These Regulations are made pursuant to sections 28, 29 and 30 of the Royal Melbourne Institute of Technology Act 2010 and Part 4 of the RMIT Statute No. 1 (Amendment No. 2) .",
+      "subclauses": []
+    },
+    {
+      "id": "S.3",
+      "type": "section",
+      "title": "Definitions",
+      "path": [
+        "Part A",
+        "Definitions"
+      ],
+      "text": "In these Regulations, unless the contrary intention appears: academic staff means those higher education employees of the University within the meaning of the collectivea. agreement or award that applies to Higher Education employees, appointed to an established position and being not less than 0.5 of a full time position. professional staff means those professional, administrative, clerical, computing and technical employees of theb. University within the meaning of the applicable collective agreement or award appointed to an established position and being not less than 0.5 of a full time position. senior academic staff means academic classification levels C, D and E within the meaning of the applicablec. collective agreement or award appointed to an established position and being not less than 0.5 of a full time position senior teaching staff means classification level Senior Educator Level 1, Senior Educator Level 2 and Seniord. Educator Level 3 within the meaning of the applicable collective agreement or award appointed to an established position and being not less than 0.5 of a full time position teaching staff means those VE employees of the University within the meaning of the collective agreement ore. award that applies to VE employees appointed to an established position and being not less than 0.5 of a full time position."
+    },
+    {
+      "id": "C.3(5)",
+      "type": "clause",
+      "title": "Definitions",
+      "path": [
+        "Part A",
+        "Definitions",
+        "(5)"
+      ],
+      "text": "In these Regulations, unless the contrary intention appears: academic staff means those higher education employees of the University within the meaning of the collectivea. agreement or award that applies to Higher Education employees, appointed to an established position and being not less than 0.5 of a full time position. professional staff means those professional, administrative, clerical, computing and technical employees of theb. University within the meaning of the applicable collective agreement or award appointed to an established position and being not less than 0.5 of a full time position. senior academic staff means academic classification levels C, D and E within the meaning of the applicablec. collective agreement or award appointed to an established position and being not less than 0.5 of a full time position senior teaching staff means classification level Senior Educator Level 1, Senior Educator Level 2 and Seniord. Educator Level 3 within the meaning of the applicable collective agreement or award appointed to an established position and being not less than 0.5 of a full time position teaching staff means those VE employees of the University within the meaning of the collective agreement ore. award that applies to VE employees appointed to an established position and being not less than 0.5 of a full time position.",
+      "subclauses": []
+    },
+    {
+      "id": "S.5",
+      "type": "section",
+      "title": "Membership of the Academic Board",
+      "path": [
+        "Part B",
+        "Membership of the Academic Board"
+      ],
+      "text": "Membership of the Academic Board comprises: Chair, Academic Boarda. Deputy Chair, Academic Boardb. Chairs of Academic Board Standing Committees who are not already members of Academic Boardc. ex officio members:d. Chancellor (or nominee)i. Vice-Chancellor and Presidentii. Deputy Vice-Chancellor Education and Vice-Presidentiii. Deputy Vice-Chancellor Research and Innovation and Vice-Presidentiv. Deputy Vice-Chancellor International and Engagement and Vice-Presidentv. Deputy Vice-Chancellor College of Business and Law and Vice-Presidentvi. Deputy Vice-Chancellor College of Design and Social Context and Vice-Presidentvii. Deputy Vice-Chancellor STEM College and Vice-Presidentviii. Deputy Vice-Chancellor College of Vocational Education and Vice-Presidentix. Executive Director, Library Servicesx. Associate Deputy Vice-Chancellor Education, Learning, Teaching and Qualityxi. Associate Deputy Vice-Chancellor Research Training and Developmentxii. Associate Deputy Vice-Chancellor, Research and Innovation Capabilityxiii. University Secretary and Academic Registrar xiv. Pro Vice-Chancellor Vietnam and General Director, RMIT Vietnam or nomineexv. President, RMIT University Student Union xvi. President, RMIT Vietnam Student Council xvii. one (1) Aboriginal and/or Torres Strait Islander academic nominated by the Chair of Academic Board xviii. This document may be varied, withdrawn or replaced at any time. Printed copies, or part thereof, are regarded as unauthorised and should not be relied upon as the current version. It is the responsibility of the reader to refer to RMIT's Policy Register for the latest version of this document.Page 3 of 6University Secretary xix. Pro Vice-Chancellor, Indigenous Education, Research and Engagementxx. Aboriginal and/or Torres Strait Islander Elder in Residence xxi. Chief Executive Officer, RMIT Online xxii. Chief Executive Officer, RMIT Training xxiii. Chair, Professorial Academy, or nominee drawn from the Professorial Academy xxiv. one (1) Head of School, Dean or Executive Dean from each higher education college, elected by the academice. staff of each college two (2) senior academics/teaching staff in a non-executive role from each college elected by the academic andf. teaching staff of each college two (2) academic staff from each college, elected by and from the academic staff of each collegeg. one (1) member elected by and from the postgraduate students of the Universityh. one (1) member elected by and from the higher degree by research students of the Universityi. two (2) members elected by and from the undergraduate students of the Universityj. two (2) members elected by and from the students enrolled in VE or associate degree programs of thek. University two (2) members elected by and from the professional staffl. five (5) members elected by and from the academic staffm. five (5) members elected by and from the teaching staffn. four (4) members elected by and from the professors of the University occupying a Level E appointment, noto. including honorary or adjunct professors. The Board may co-opt prescribed ‘in attendee’ members for a specified period with specific expertise who dop. not have voting rights for the duration of their co-option. Clauses (10)f, l, m and n include employees of the University at Executive Level 1, Heads of School, Deans and Directors. The University Secretary, or nominee is the secretary of the Academic Board."
+    },
+    {
+      "id": "C.5(10)",
+      "type": "clause",
+      "title": "Membership of the Academic Board",
+      "path": [
+        "Part B",
+        "Membership of the Academic Board",
+        "(10)"
+      ],
+      "text": "Membership of the Academic Board comprises: Chair, Academic Boarda. Deputy Chair, Academic Boardb. Chairs of Academic Board Standing Committees who are not already members of Academic Boardc. ex officio members:d. Chancellor (or nominee)i. Vice-Chancellor and Presidentii. Deputy Vice-Chancellor Education and Vice-Presidentiii. Deputy Vice-Chancellor Research and Innovation and Vice-Presidentiv. Deputy Vice-Chancellor International and Engagement and Vice-Presidentv. Deputy Vice-Chancellor College of Business and Law and Vice-Presidentvi. Deputy Vice-Chancellor College of Design and Social Context and Vice-Presidentvii. Deputy Vice-Chancellor STEM College and Vice-Presidentviii. Deputy Vice-Chancellor College of Vocational Education and Vice-Presidentix. Executive Director, Library Servicesx. Associate Deputy Vice-Chancellor Education, Learning, Teaching and Qualityxi. Associate Deputy Vice-Chancellor Research Training and Developmentxii. Associate Deputy Vice-Chancellor, Research and Innovation Capabilityxiii. University Secretary and Academic Registrar xiv. Pro Vice-Chancellor Vietnam and General Director, RMIT Vietnam or nomineexv. President, RMIT University Student Union xvi. President, RMIT Vietnam Student Council xvii. one (1) Aboriginal and/or Torres Strait Islander academic nominated by the Chair of Academic Board xviii. This document may be varied, withdrawn or replaced at any time. Printed copies, or part thereof, are regarded as unauthorised and should not be relied upon as the current version. It is the responsibility of the reader to refer to RMIT's Policy Register for the latest version of this document.Page 3 of 6University Secretary xix. Pro Vice-Chancellor, Indigenous Education, Research and Engagementxx. Aboriginal and/or Torres Strait Islander Elder in Residence xxi. Chief Executive Officer, RMIT Online xxii. Chief Executive Officer, RMIT Training xxiii. Chair, Professorial Academy, or nominee drawn from the Professorial Academy xxiv. one (1) Head of School, Dean or Executive Dean from each higher education college, elected by the academice. staff of each college two (2) senior academics/teaching staff in a non-executive role from each college elected by the academic andf. teaching staff of each college two (2) academic staff from each college, elected by and from the academic staff of each collegeg. one (1) member elected by and from the postgraduate students of the Universityh. one (1) member elected by and from the higher degree by research students of the Universityi. two (2) members elected by and from the undergraduate students of the Universityj. two (2) members elected by and from the students enrolled in VE or associate degree programs of thek. University two (2) members elected by and from the professional staffl. five (5) members elected by and from the academic staffm. five (5) members elected by and from the teaching staffn. four (4) members elected by and from the professors of the University occupying a Level E appointment, noto. including honorary or adjunct professors. The Board may co-opt prescribed ‘in attendee’ members for a specified period with specific expertise who dop. not have voting rights for the duration of their co-option.",
+      "subclauses": []
+    },
+    {
+      "id": "C.5(11)",
+      "type": "clause",
+      "title": "Membership of the Academic Board",
+      "path": [
+        "Part B",
+        "Membership of the Academic Board",
+        "(11)"
+      ],
+      "text": "Clauses (10)f, l, m and n include employees of the University at Executive Level 1, Heads of School, Deans and Directors.",
+      "subclauses": []
+    },
+    {
+      "id": "C.5(12)",
+      "type": "clause",
+      "title": "Membership of the Academic Board",
+      "path": [
+        "Part B",
+        "Membership of the Academic Board",
+        "(12)"
+      ],
+      "text": "The University Secretary, or nominee is the secretary of the Academic Board.",
+      "subclauses": []
+    },
+    {
+      "id": "S.6",
+      "type": "section",
+      "title": "Term of Office and Vacancies",
+      "path": [
+        "Part B",
+        "Term of Office and Vacancies"
+      ],
+      "text": "An elected member: holds office for a period of two (2) years except that student members will hold office for a term of one (1) year,a. and assumes office on the first day of January following the member’s election unless the member is replacing ab. vacancy under clauses (14), (15) or (16), in which case the elected member may assume office at the next meeting. Where a member of the Academic Board: elected by staff ceases to be a member of staff, ora. elected by enrolled students, ceases to be an enrolled student,b. that member ceases to be a member of the Academic Board and the vacancy thereby created is a casual vacancy. Any vacancy created in the membership of the Academic Board is dealt with in accordance with the provisions of the Elections Regulations . Where an elected member of the Academic Board is to be absent from the University for a period exceeding six This document may be varied, withdrawn or replaced at any time. Printed copies, or part thereof, are regarded as unauthorised and should not be relied upon as the current version. It is the responsibility of the reader to refer to RMIT's Policy Register for the latest version of this document.Page 4 of 6(6) months a person may be appointed by the Chair of the Academic Board for the duration of the absence of the elected member. All elections to the Academic Board must be conducted in accordance with the Statute and Elections Regulations, unless otherwise specified."
+    },
+    {
+      "id": "C.6(13)",
+      "type": "clause",
+      "title": "Term of Office and Vacancies",
+      "path": [
+        "Part B",
+        "Term of Office and Vacancies",
+        "(13)"
+      ],
+      "text": "An elected member: holds office for a period of two (2) years except that student members will hold office for a term of one (1) year,a. and assumes office on the first day of January following the member’s election unless the member is replacing ab. vacancy under clauses (14), (15) or (16), in which case the elected member may assume office at the next meeting.",
+      "subclauses": []
+    },
+    {
+      "id": "C.6(14)",
+      "type": "clause",
+      "title": "Term of Office and Vacancies",
+      "path": [
+        "Part B",
+        "Term of Office and Vacancies",
+        "(14)"
+      ],
+      "text": "Where a member of the Academic Board: elected by staff ceases to be a member of staff, ora. elected by enrolled students, ceases to be an enrolled student,b. that member ceases to be a member of the Academic Board and the vacancy thereby created is a casual vacancy.",
+      "subclauses": []
+    },
+    {
+      "id": "C.6(15)",
+      "type": "clause",
+      "title": "Term of Office and Vacancies",
+      "path": [
+        "Part B",
+        "Term of Office and Vacancies",
+        "(15)"
+      ],
+      "text": "Any vacancy created in the membership of the Academic Board is dealt with in accordance with the provisions of the Elections Regulations .",
+      "subclauses": []
+    },
+    {
+      "id": "C.6(16)",
+      "type": "clause",
+      "title": "Term of Office and Vacancies",
+      "path": [
+        "Part B",
+        "Term of Office and Vacancies",
+        "(16)"
+      ],
+      "text": "Where an elected member of the Academic Board is to be absent from the University for a period exceeding six This document may be varied, withdrawn or replaced at any time. Printed copies, or part thereof, are regarded as unauthorised and should not be relied upon as the current version. It is the responsibility of the reader to refer to RMIT's Policy Register for the latest version of this document.Page 4 of 6(6) months a person may be appointed by the Chair of the Academic Board for the duration of the absence of the elected member.",
+      "subclauses": []
+    },
+    {
+      "id": "C.6(17)",
+      "type": "clause",
+      "title": "Term of Office and Vacancies",
+      "path": [
+        "Part B",
+        "Term of Office and Vacancies",
+        "(17)"
+      ],
+      "text": "All elections to the Academic Board must be conducted in accordance with the Statute and Elections Regulations, unless otherwise specified.",
+      "subclauses": []
+    },
+    {
+      "id": "S.7",
+      "type": "section",
+      "title": "Office Bearers",
+      "path": [
+        "Part B",
+        "Office Bearers"
+      ],
+      "text": "The Board shall in every second calendar year elect from amongst its members a Chair and Deputy Chair who will hold office for a period of two (2) years. The Chair and Deputy Chair must be a senior academic or senior educator in accordance with the definitions provided under regulation 3(1). A person may not serve as Chair or Deputy Chair while they are: an ex-officio member of the Academic Board, ora. a Head of School, Dean or Executive Dean of a University school.b. A call for nominations to members of the Academic Board for the position of Chair and Deputy Chair is made by the Board secretary not less than ten (10) working days prior to the first day of the ballot period. Nominations for the position of Chair and Deputy Chair may be submitted by a date set by the Board secretary no later than one (1) working day prior to the first day of the ballot period. If more than one nomination is received for each position, the Board secretary will conduct an election for that position. The Board secretary, not later than five (5) working days prior to the last day of the ballot period, notifies members of the Academic Board of: the nominations received, anda. the process for voting (by secret ballot)b. Where the Chair of the Academic Board is absent from the University the Deputy Chair will preside and assume all functions and duties of the Chair. If the Deputy Chair is required to act as Chair but is unavailable or unable to do so, the Council may by resolution appoint an interim Acting Chair for a specified period. The Chair or Deputy Chair positions will become vacant if the occupant: resigns from their office bearer position.a. If the office of Chair becomes vacant on or after the last six months of the Chair’s term, the vacancy must be filled by the Deputy Chair. If the Deputy Chair is required to act as Chair but is unavailable or unable to do so, the Council may by resolution appoint a Chair for the remainder of the term. If the office of Chair becomes vacant before the last six months of the Chair’s term, a new Chair must be elected as soon as possible in accordance with the office bearer election provisions of these regulations. This document may be varied, withdrawn or replaced at any time. Printed copies, or part thereof, are regarded as unauthorised and should not be relied upon as the current version. It is the responsibility of the reader to refer to RMIT's Policy Register for the latest version of this document.Page 5 of 68. Meetings of the Academic Board Meetings of the Academic Board are conducted in accordance with the Standing Orders of Academic Board ."
+    },
+    {
+      "id": "C.7(18)",
+      "type": "clause",
+      "title": "Office Bearers",
+      "path": [
+        "Part B",
+        "Office Bearers",
+        "(18)"
+      ],
+      "text": "The Board shall in every second calendar year elect from amongst its members a Chair and Deputy Chair who will hold office for a period of two (2) years.",
+      "subclauses": []
+    },
+    {
+      "id": "C.7(19)",
+      "type": "clause",
+      "title": "Office Bearers",
+      "path": [
+        "Part B",
+        "Office Bearers",
+        "(19)"
+      ],
+      "text": "The Chair and Deputy Chair must be a senior academic or senior educator in accordance with the definitions provided under regulation 3(1).",
+      "subclauses": []
+    },
+    {
+      "id": "C.7(20)",
+      "type": "clause",
+      "title": "Office Bearers",
+      "path": [
+        "Part B",
+        "Office Bearers",
+        "(20)"
+      ],
+      "text": "A person may not serve as Chair or Deputy Chair while they are: an ex-officio member of the Academic Board, ora. a Head of School, Dean or Executive Dean of a University school.b.",
+      "subclauses": []
+    },
+    {
+      "id": "C.7(21)",
+      "type": "clause",
+      "title": "Office Bearers",
+      "path": [
+        "Part B",
+        "Office Bearers",
+        "(21)"
+      ],
+      "text": "A call for nominations to members of the Academic Board for the position of Chair and Deputy Chair is made by the Board secretary not less than ten (10) working days prior to the first day of the ballot period.",
+      "subclauses": []
+    },
+    {
+      "id": "C.7(22)",
+      "type": "clause",
+      "title": "Office Bearers",
+      "path": [
+        "Part B",
+        "Office Bearers",
+        "(22)"
+      ],
+      "text": "Nominations for the position of Chair and Deputy Chair may be submitted by a date set by the Board secretary no later than one (1) working day prior to the first day of the ballot period.",
+      "subclauses": []
+    },
+    {
+      "id": "C.7(23)",
+      "type": "clause",
+      "title": "Office Bearers",
+      "path": [
+        "Part B",
+        "Office Bearers",
+        "(23)"
+      ],
+      "text": "If more than one nomination is received for each position, the Board secretary will conduct an election for that position.",
+      "subclauses": []
+    },
+    {
+      "id": "C.7(24)",
+      "type": "clause",
+      "title": "Office Bearers",
+      "path": [
+        "Part B",
+        "Office Bearers",
+        "(24)"
+      ],
+      "text": "The Board secretary, not later than five (5) working days prior to the last day of the ballot period, notifies members of the Academic Board of: the nominations received, anda. the process for voting (by secret ballot)b.",
+      "subclauses": []
+    },
+    {
+      "id": "C.7(25)",
+      "type": "clause",
+      "title": "Office Bearers",
+      "path": [
+        "Part B",
+        "Office Bearers",
+        "(25)"
+      ],
+      "text": "Where the Chair of the Academic Board is absent from the University the Deputy Chair will preside and assume all functions and duties of the Chair.",
+      "subclauses": []
+    },
+    {
+      "id": "C.7(26)",
+      "type": "clause",
+      "title": "Office Bearers",
+      "path": [
+        "Part B",
+        "Office Bearers",
+        "(26)"
+      ],
+      "text": "If the Deputy Chair is required to act as Chair but is unavailable or unable to do so, the Council may by resolution appoint an interim Acting Chair for a specified period.",
+      "subclauses": []
+    },
+    {
+      "id": "C.7(27)",
+      "type": "clause",
+      "title": "Office Bearers",
+      "path": [
+        "Part B",
+        "Office Bearers",
+        "(27)"
+      ],
+      "text": "The Chair or Deputy Chair positions will become vacant if the occupant: resigns from their office bearer position.a.",
+      "subclauses": []
+    },
+    {
+      "id": "C.7(28)",
+      "type": "clause",
+      "title": "Office Bearers",
+      "path": [
+        "Part B",
+        "Office Bearers",
+        "(28)"
+      ],
+      "text": "If the office of Chair becomes vacant on or after the last six months of the Chair’s term, the vacancy must be filled by the Deputy Chair.",
+      "subclauses": []
+    },
+    {
+      "id": "C.7(29)",
+      "type": "clause",
+      "title": "Office Bearers",
+      "path": [
+        "Part B",
+        "Office Bearers",
+        "(29)"
+      ],
+      "text": "If the Deputy Chair is required to act as Chair but is unavailable or unable to do so, the Council may by resolution appoint a Chair for the remainder of the term.",
+      "subclauses": []
+    },
+    {
+      "id": "C.7(30)",
+      "type": "clause",
+      "title": "Office Bearers",
+      "path": [
+        "Part B",
+        "Office Bearers",
+        "(30)"
+      ],
+      "text": "If the office of Chair becomes vacant before the last six months of the Chair’s term, a new Chair must be elected as soon as possible in accordance with the office bearer election provisions of these regulations. This document may be varied, withdrawn or replaced at any time. Printed copies, or part thereof, are regarded as unauthorised and should not be relied upon as the current version. It is the responsibility of the reader to refer to RMIT's Policy Register for the latest version of this document.Page 5 of 68. Meetings of the Academic Board",
+      "subclauses": []
+    },
+    {
+      "id": "C.7(31)",
+      "type": "clause",
+      "title": "Office Bearers",
+      "path": [
+        "Part B",
+        "Office Bearers",
+        "(31)"
+      ],
+      "text": "Meetings of the Academic Board are conducted in accordance with the Standing Orders of Academic Board .",
+      "subclauses": []
+    },
+    {
+      "id": "S.9",
+      "type": "section",
+      "title": "Revocation of Regulations",
+      "path": [
+        "Part C",
+        "Revocation of Regulations"
+      ],
+      "text": "On the commencement of these Regulations the following Regulations are revoked: Regulation 2.8.1 The Academic Board – Membership.a. This document may be varied, withdrawn or replaced at any time. Printed copies, or part thereof, are regarded as unauthorised and should not be relied upon as the current version. It is the responsibility of the reader to refer to RMIT's Policy Register for the latest version of this document.Page 6 of 6Status and Details Status Current Eﬀective Date 1st January 2025 Review Date 1st January 2030 Approval Authority Senior Governance Oﬃcer Approval Date 21st October 2024 Expiry Date Not Applicable Policy OwnerConnie Merlino University Secretary and Academic Registrar Policy AuthorConnie Merlino University Secretary and Academic Registrar Enquiries Contact Council Secretariat Glossary Terms and Definitions \"RMIT Group\" - RMIT University and its controlled entities (RMIT Europe, RMIT Online, RMIT Vietnam, RMIT University Pathways)"
+    },
+    {
+      "id": "C.9(32)",
+      "type": "clause",
+      "title": "Revocation of Regulations",
+      "path": [
+        "Part C",
+        "Revocation of Regulations",
+        "(32)"
+      ],
+      "text": "On the commencement of these Regulations the following Regulations are revoked: Regulation 2.8.1 The Academic Board – Membership.a. This document may be varied, withdrawn or replaced at any time. Printed copies, or part thereof, are regarded as unauthorised and should not be relied upon as the current version. It is the responsibility of the reader to refer to RMIT's Policy Register for the latest version of this document.Page 6 of 6Status and Details Status Current Eﬀective Date 1st January 2025 Review Date 1st January 2030 Approval Authority Senior Governance Oﬃcer Approval Date 21st October 2024 Expiry Date Not Applicable Policy OwnerConnie Merlino University Secretary and Academic Registrar Policy AuthorConnie Merlino University Secretary and Academic Registrar Enquiries Contact Council Secretariat Glossary Terms and Definitions \"RMIT Group\" - RMIT University and its controlled entities (RMIT Europe, RMIT Online, RMIT Vietnam, RMIT University Pathways)",
+      "subclauses": []
+    }
+  ]
+}
