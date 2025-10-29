@@ -21,8 +21,7 @@ It provides **accurate, citation-backed answers** based on official RMIT policie
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/<your-username>/academic-policies-chatbot.git
-cd academic-policies-chatbot
+git clone https://github.com/cloudwhj/DataCommAssm3.git
 ```
 
 ### 2️⃣ Create and activate a virtual environment
