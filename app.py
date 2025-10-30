@@ -217,7 +217,7 @@ def flatten_passages(policies: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         "integrity": ["plagiarism", "collusion", "integrity", "cheating"],
         "submission": ["submit", "submission", "canvas", "turnitin", "upload"],
         "feedback": ["feedback", "rubric", "criteria", "comments"],
-        "appeal": ["appeal", "review", "result", "grade"],
+        "appeals": ["appeal", "grade appeal", "final grade", "review result", "complaint", "college appeals committee"],
         "attendance": ["attendance", "absent", "tutorial", "lecture", "lab"],
         "conduct": ["conduct", "complaint", "behavior", "behaviour"]
     }
@@ -371,28 +371,68 @@ def update_dialog_state(user_text: str):
 
 def rewrite_query(user_text: str) -> str:
     """
-    Lightweight query rewriter for elliptical follow-ups.
-    Uses last assistant/user turns + stored topic/entities to fill pronouns.
+    Turn vague follow-ups like 'can u explain in detail'
+    into a fully qualified question using remembered topic/entities.
     """
     t = user_text.strip()
     if not t:
         return t
-    lt = (st.session_state.topic or "")
+
+    topic = st.session_state.get("topic")
     ents = st.session_state.get("entities") or {}
-    # Expand pronouns & vague references
-    base = t
-    vague_pronouns = ["it", "that", "this", "those", "these"]
-    if any((" " + p + " ") in (" " + t.lower() + " ") for p in vague_pronouns):
-        desc = []
-        if lt: desc.append(lt.replace("_", " "))
-        if ents.get("assessment_type"): desc.append(ents["assessment_type"])
-        if ents.get("days"): desc.append(f"{ents['days']} day extension")
-        hint = ", ".join(desc) if desc else "the previous topic"
-        base = f"In the context of {hint}, {t}"
-    # Normalize short follow-ups like "what about >7 days?"
-    if ">7" in base or "more than 7" in base or "longer than 7" in base:
-        base += " (asking about special consideration if extension exceeds 7 days)"
-    return base
+
+    # If the user message is obviously vague, build a new clarified query
+    vague_phrases = [
+        "explain in detail",
+        "explain more",
+        "can you explain more",
+        "what do you mean",
+        "how does that work",
+        "can u explain in detail",
+        "tell me more",
+        "more detail",
+        "go deeper"
+    ]
+
+    lower_t = t.lower()
+    is_vague = any(phrase in lower_t for phrase in vague_phrases)
+
+    if is_vague and topic:
+        detail_bits = []
+
+        # map topic to human-readable label
+        topic_label_map = {
+            "appeals": "appealing a final course result through review and the College Appeals Committee process",
+            "extensions": "requesting an assessment deadline extension",
+            "special_consideration": "special consideration for serious circumstances",
+            "integrity": "academic integrity and plagiarism rules",
+            "attendance": "attendance/participation requirements",
+            "conduct": "student conduct or harassment reporting",
+        }
+        nice_topic = topic_label_map.get(topic, topic.replace("_", " "))
+
+        # include known entities if present
+        if ents.get("days"):
+            detail_bits.append(f"{ents['days']}-day extension request")
+        if ents.get("assessment_type"):
+            detail_bits.append(f"for a {ents['assessment_type']} assessment")
+
+        tail = ""
+        if detail_bits:
+            tail = " regarding " + ", ".join(detail_bits)
+
+        # build clarified query
+        return (
+            f"In the context of {nice_topic}{tail}, please explain the full process in more detail, "
+            f"including steps, requirements, timelines, and who makes the decision."
+        )
+
+    # default: keep original but add topic hint if available
+    if topic and topic not in lower_t:
+        return f"{t} (This is about {topic}.)"
+
+    return t
+
 
 def rrf_merge(hit_lists: list[list[dict]], k: int = 8, k_rank: int = 60) -> list[dict]:
     """
@@ -798,13 +838,35 @@ def main():
 
         # If still nothing strong, provide safe refusal with sources (if any)
         if not strong_hits:
-            answer = (
-                "I can’t find this clearly in the policies I have. "
-                "Please consider contacting Student Connect: 1300 ASK RMIT or reach out to them via 'https://www.rmit.edu.au/students/support-services/student-connect'."
-            )
-            add_message("assistant", answer, citations=[])
-            st.rerun()
+            fallback_hits = fused[:3] if fused else []
+            if fallback_hits:
+                ctx = conversation_context(n_recent=4)
+                prompt, citations = build_user_prompt(q_rewrite, fallback_hits, min_score, ctx)
+                try:
+                    model_answer = invoke_bedrock(
+                        system_prompt=SYSTEM_PROMPT,
+                        user_content=prompt,
+                        model_id=model_id,
+                        temperature=temperature,
+                        top_p=top_p,
+                        max_tokens=700,
+                )
+                except Exception as e:
+                    model_answer = f"Error contacting Bedrock: {e}"
 
+                model_answer = sanitize_model_answer(model_answer)
+                add_message("assistant", model_answer, citations=citations)
+                st.rerun()
+            else:
+                # true no-context situation
+                answer = (
+                    "I need a bit more detail to pull the right policy. "
+                    "Please clarify your question with more details. "
+                    "or please consider contacting Student Connect: 1300 ASK RMIT or reach out to them via 'https://www.rmit.edu.au/students/support-services/student-connect'."
+                )
+                add_message("assistant", answer, citations=[])
+                st.rerun()
+        
         # Call Bedrock with guard-railed system prompt
         t1 = time.time()
         try:
