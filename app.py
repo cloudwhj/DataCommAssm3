@@ -623,7 +623,18 @@ def main():
 
         st.divider()
         st.subheader("Knowledge Base")
-        freshness_badge(st.session_state.manifest)
+        # 🔹 Ensure index is loaded before showing status
+        if st.session_state.index is None or st.session_state.passages is None:
+            idx, passages, manifest = load_saved_index()
+            st.session_state.index = idx
+            st.session_state.passages = passages
+            st.session_state.manifest = manifest
+
+        # 🔹 Now show correct freshness badge
+        if st.session_state.index:
+            freshness_badge(st.session_state.manifest)
+        else:
+            st.warning("⚠️ Knowledge base not indexed yet.")
         uploaded = st.file_uploader("Upload Academic Policy JSON files", type=["json"], accept_multiple_files=True)
         if st.button("Rebuild Index", use_container_width=True):
             if not uploaded:
